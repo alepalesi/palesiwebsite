@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
-import { Box } from '@chakra-ui/react'
+import { Heading } from '@chakra-ui/react'
 
 const Home = (props) => {
   const { isHome } = props
   console.log('isHome', isHome)
-  return isHome && <Box>is Home: {isHome}</Box>
+  return isHome && <Heading as={'h1'}>Alessia {isHome}</Heading>
 }
 
 Home.propTypes = {

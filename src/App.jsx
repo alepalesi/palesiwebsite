@@ -6,6 +6,9 @@ import NotFound from './pages/NoPage'
 import Work from './pages/Work'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { getPeriodOfTheYear } from './classes/utils'
+//TODO: understand how to retrieve correct font families
+import './static/fonts/fonts.css'
+import './static/fonts/ArsenicaTrial-Bold/ArsenicaTrial-Bold.ttf'
 
 function App() {
   const styles = useMultiStyleConfig('Prova')
