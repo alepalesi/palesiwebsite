@@ -2,10 +2,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 // Components
-import { Text, HStack, VStack, useMultiStyleConfig } from '@chakra-ui/react'
+import {
+  Text,
+  HStack,
+  VStack,
+  useMultiStyleConfig,
+  Link,
+} from '@chakra-ui/react'
 
-import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
+import { Link as RouterLink } from 'react-router-dom'
 
+import { PhoneIcon } from '@chakra-ui/icons'
+
+import ButtonMailto from '../button-mail-to'
 const Contact = (props) => {
   const { contact } = props
   const style = useMultiStyleConfig('Contact')
@@ -14,15 +23,20 @@ const Contact = (props) => {
     <VStack>
       <HStack>
         <PhoneIcon />
-        <Text>{contact.phone}</Text>
+        <Link href={'tel:' + contact.phone}>{contact.phone}</Link>
       </HStack>
       <HStack>
         <PhoneIcon />
-        <Text>{contact.email}</Text>
+        <ButtonMailto
+          label={contact.email}
+          mailto={'mailto:' + contact.email}
+        />
       </HStack>
       <HStack>
         <PhoneIcon />
-        <Text>{contact.linkedin}</Text>
+        <Link href={contact.linkedinUrl} isExternal>
+          {contact.linkedinLabel}
+        </Link>
       </HStack>
     </VStack>
   )

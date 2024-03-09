@@ -8,7 +8,7 @@ import {
   VStack,
   useMultiStyleConfig,
   Heading,
-  Text,
+  HStack,
 } from '@chakra-ui/react'
 
 import Contact from '../contact'
@@ -19,24 +19,27 @@ const Profile = (props) => {
   const alessiaContacts = {
     phone: '+39 347 327 0393',
     email: 'alessia.palesi@gmail.com',
-    linkedin: 'linkedin.com/in/alessiapalesi',
+    linkedinLabel: 'linkedin.com/in/alessiapalesi',
+    linkedinUrl: 'https://linkedin.com/in/alessiapalesi',
   }
 
   return (
-    <VStack>
-      <Box {...style.imageWrapper}>
-        <Image src={'src/assets/img/alessia.jpeg'} {...style.image}></Image>
-      </Box>
-      <VStack>
-        <Heading as={'h1'} {...style.text}>
-          Alessia Palesi
-        </Heading>
-        <Heading as={'h2'} {...style.textH2}>
-          e-commerce consultant
-        </Heading>
-      </VStack>
+    <>
+      <HStack>
+        <Box {...style.imageWrapper}>
+          <Image src={'src/assets/img/alessia.jpeg'} {...style.image}></Image>
+        </Box>
+        <VStack>
+          <Heading as={'h1'} {...style.text}>
+            Hi, I'm Alessia Palesi
+          </Heading>
+          <Heading as={'h2'} {...style.textH2}>
+            e-commerce consultant & front-end developer
+          </Heading>
+        </VStack>
+      </HStack>
       <Contact contact={alessiaContacts} />
-    </VStack>
+    </>
   )
 }
 

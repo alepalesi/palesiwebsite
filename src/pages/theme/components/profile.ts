@@ -7,7 +7,7 @@ export default {
       w: '160px',
       h: '160px',
       overflow: 'hidden',
-      outline: `9px solid ${Colors.accent100}`,
+      outline: `3px solid ${Colors.accent100}`,
       outlineOffset: '9px',
     },
     image: {
@@ -17,7 +17,7 @@ export default {
       h: '100%',
     },
     text: { ...Typ.h1_ext_reg },
-    textH2: { ...Typ.h2_ext_reg },
+    textH2: { ...Typ.caption_reg },
   },
   variants: {},
   parts: ['imageWrapper', 'image'],
