@@ -5,6 +5,9 @@ export default {
     provaComponent: {
       bg: Colors.black,
     },
+    container: {
+      //maxWidth: '1024px',
+    },
   },
   variants: {},
 }
