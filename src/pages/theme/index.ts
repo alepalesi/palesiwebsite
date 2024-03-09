@@ -6,12 +6,14 @@ import fonts from './foundations/fonts'
 // more about extending and overriding themes for your project.
 
 import Prova from './components/prova'
+import Profile from './components/profile'
 
 const theme = extendTheme({
   fonts,
 
   components: {
     Prova,
+    Profile,
   },
 })
 

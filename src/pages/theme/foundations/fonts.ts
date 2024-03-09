@@ -1,4 +1,4 @@
 export default {
-  heading: 'ArsenicaTrial',
-  body: 'Arial',
+  heading: 'Kalnia',
+  body: 'Cabin',
 }
