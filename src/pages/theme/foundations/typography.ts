@@ -68,6 +68,12 @@ const typography = {
     fontWeight: 500,
     lineHeight: { base: '32px' },
   },
+  body_light: {
+    fontFamily: 'Cabin',
+    fontSize: { base: '24px' },
+    fontWeight: 400,
+    lineHeight: { base: '24px' },
+  },
 }
 
 export default typography

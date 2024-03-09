@@ -38,7 +38,7 @@ const Profile = (props) => {
           </Heading>
         </VStack>
       </HStack>
-      <Contact contact={alessiaContacts} />
+      {/* <Contact contact={alessiaContacts} /> */}
     </>
   )
 }
