@@ -4,11 +4,13 @@ import PropTypes from 'prop-types'
 import { Box, Stack, Text } from '@chakra-ui/react'
 import { PhoneIcon } from '@chakra-ui/icons'
 
-const ExpertiseItem = ({ style }) => {
+const ExpertiseItem = (props) => {
+  const { style, description } = props
+
   return (
     <Stack {...style.item}>
       <PhoneIcon {...style.icon} />
-      <Text {...style.itemText}>expertise text</Text>
+      <Text {...style.itemText}>{description}</Text>
     </Stack>
   )
 }

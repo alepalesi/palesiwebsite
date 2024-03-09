@@ -2,9 +2,15 @@ import { Typ, Colors } from '../utils'
 
 export default {
   baseStyle: {
-    grid: {
+    wrapper: {
       w: '100%',
       maxW: '1024px',
+      gap: '24px',
+    },
+    title: {
+      ...Typ.h1_ext_reg,
+    },
+    grid: {
       gap: '32px',
     },
     item: {
