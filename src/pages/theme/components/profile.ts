@@ -5,12 +5,25 @@ export default {
     fullwidthContainer: {
       h: '100dvh',
       w: '100dvw',
-      bg: Colors.accent200,
+      bg: `linear-gradient(-45deg, ${Colors.accent100}, ${Colors.accent200}, ${Colors.primary100},${Colors.primary200})`,
+      backgroundSize: '400% 400%',
+      animation: 'gradient 10s ease infinite',
       color: Colors.white,
       gap: '64px',
       textAlign: 'left',
       justifyContent: 'center',
       px: '64px',
+      '@keyframes gradient': {
+        '0% ': {
+          backgroundPosition: ' 0% 50%',
+        },
+        '50%': {
+          backgroundPosition: '100% 50%',
+        },
+        '100% ': {
+          backgroundPosition: '0% 50%',
+        },
+      },
     },
     vstack: {
       alignItems: 'flex-start',

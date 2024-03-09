@@ -25,7 +25,13 @@ const Profile = (props) => {
 
   return (
     <>
-      <HStack {...style.fullwidthContainer}>
+      <HStack
+        {...style.fullwidthContainer}
+        sx={{
+          ...style.fullwidthContainer,
+          animation: 'gradient 15s ease infinite',
+        }}
+      >
         <Box {...style.imageWrapper}>
           <Image src={'src/assets/img/alessia.jpeg'} {...style.image}></Image>
         </Box>
