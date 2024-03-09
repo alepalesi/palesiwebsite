@@ -12,21 +12,61 @@ const typography = {
     fontFamily: 'Kalnia',
     fontSize: { base: '72px' },
     fontWeight: 700,
+    lineHeight: { base: '72px' },
   },
   h1_ext_reg: {
     fontFamily: 'Kalnia',
     fontSize: { base: '72px' },
     fontWeight: 550,
+    lineHeight: { base: '72px' },
   },
   h2_ext_sem: {
     fontFamily: 'Kalnia',
     fontSize: { base: '48px' },
     fontWeight: 700,
+    lineHeight: { base: '48px' },
   },
   h2_ext_reg: {
     fontFamily: 'Kalnia',
     fontSize: { base: '48px' },
     fontWeight: 550,
+    lineHeight: { base: '48px' },
+  },
+  h1_sem: {
+    fontFamily: 'Cabin',
+    fontSize: { base: '72px' },
+    fontWeight: 700,
+    lineHeight: { base: '72px' },
+  },
+  h1_reg: {
+    fontFamily: 'Cabin',
+    fontSize: { base: '72px' },
+    fontWeight: 500,
+    lineHeight: { base: '72px' },
+  },
+  h2_sem: {
+    fontFamily: 'Cabin',
+    fontSize: { base: '48px' },
+    fontWeight: 700,
+    lineHeight: { base: '48px' },
+  },
+  h2_reg: {
+    fontFamily: 'Cabin',
+    fontSize: { base: '48px' },
+    fontWeight: 500,
+    lineHeight: { base: '48px' },
+  },
+  caption_sem: {
+    fontFamily: 'Cabin',
+    fontSize: { base: '32px' },
+    fontWeight: 700,
+    lineHeight: { base: '32px' },
+  },
+  caption_reg: {
+    fontFamily: 'Cabin',
+    fontSize: { base: '32px' },
+    fontWeight: 500,
+    lineHeight: { base: '32px' },
   },
 }
 
