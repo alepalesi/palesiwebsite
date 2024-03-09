@@ -25,11 +25,11 @@ const Profile = (props) => {
 
   return (
     <>
-      <HStack>
+      <HStack {...style.fullwidthContainer}>
         <Box {...style.imageWrapper}>
           <Image src={'src/assets/img/alessia.jpeg'} {...style.image}></Image>
         </Box>
-        <VStack>
+        <VStack {...style.vstack}>
           <Heading as={'h1'} {...style.text}>
             Hi, I'm Alessia Palesi
           </Heading>
