@@ -5,14 +5,16 @@ import fonts from './foundations/fonts'
 // here https://chakra-ui.com/docs/theming/customize-theme to learn
 // more about extending and overriding themes for your project.
 
-import Prova from './components/prova'
+import AppContainer from './components/app-container'
 import Profile from './components/profile'
+import AboutMe from './components/about-me'
 
 const theme = extendTheme({
   fonts,
 
   components: {
-    Prova,
+    AppContainer,
+    AboutMe,
     Profile,
   },
 })

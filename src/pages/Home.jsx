@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
-import { Heading, useTheme } from '@chakra-ui/react'
 import Profile from '../components/profile'
+import AboutMe from '../components/about-me'
 
 const Home = (props) => {
   const { isHome } = props
-  console.log('theme', useTheme())
   return (
     isHome && (
       <>
         <Profile />
+        <AboutMe />
       </>
     )
   )
