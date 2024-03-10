@@ -3,7 +3,7 @@ import { Typ, Colors } from '../utils'
 export default {
   baseStyle: {
     wrapper: {
-      w: '100%',
+      w: '50vw',
       maxW: '1024px',
       gap: '24px',
     },
@@ -14,7 +14,7 @@ export default {
       gap: '32px',
     },
     item: {
-      aspectRatio: '8/5',
+      aspectRatio: '4/3',
       bg: Colors.bg100,
       borderRadius: '24px',
       boxShadow: `inset 0em 0em 17px 10px ${Colors.bg200}`,

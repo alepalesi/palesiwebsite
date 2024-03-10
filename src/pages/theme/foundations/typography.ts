@@ -70,9 +70,9 @@ const typography = {
   },
   body_light: {
     fontFamily: 'Cabin',
-    fontSize: { base: '24px' },
+    fontSize: { base: '18px' },
     fontWeight: 400,
-    lineHeight: { base: '24px' },
+    lineHeight: { base: '22px' },
   },
 }
 

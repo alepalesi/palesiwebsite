@@ -9,6 +9,7 @@ export default {
       ...Typ.body_light,
     },
     stack: {
+      w: '50vw',
       maxW: '1024px',
       gap: '16px',
     },

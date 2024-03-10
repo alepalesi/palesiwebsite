@@ -7,7 +7,7 @@ export default {
       w: '100dvw',
       bg: `linear-gradient(-45deg, ${Colors.accent100}, ${Colors.accent200}, ${Colors.primary100},${Colors.primary200})`,
       backgroundSize: '400% 400%',
-      animation: 'gradient 10s ease infinite',
+      animation: 'gradient 7s ease infinite',
       color: Colors.white,
       gap: '64px',
       textAlign: 'left',
