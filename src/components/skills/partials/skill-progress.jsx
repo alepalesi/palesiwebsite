@@ -2,10 +2,14 @@ import React, { useState, useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 
 // Components
-import { useMultiStyleConfig, CircularProgress } from '@chakra-ui/react'
+import {
+  useMultiStyleConfig,
+  CircularProgress,
+  CircularProgressLabel,
+} from '@chakra-ui/react'
 
 const SkillProgress = (props) => {
-  const { progressValue } = props
+  const { progressValue, valueText } = props
   const [progress, setProgress] = useState(0)
   const circularRef = useRef()
   const style = useMultiStyleConfig('Skills')
@@ -32,10 +36,11 @@ const SkillProgress = (props) => {
     <CircularProgress
       capIsRound
       value={progress}
-      size="120px"
       ref={circularRef}
-      {...style.trackColor}
-    />
+      {...style.circularProgress}
+    >
+      <CircularProgressLabel {...style.text}>{valueText}</CircularProgressLabel>
+    </CircularProgress>
   )
 }
 

@@ -2,11 +2,17 @@ import { Typ, Colors } from '../utils'
 
 export default {
   baseStyle: {
-    track: {
-      borderRadius: '3px',
+    grid: {
+      w: '50vw',
     },
-    trackColor: {
+    text: {
+      ...Typ.body_light,
+    },
+    circularProgress: {
+      size: '100%',
+      thickness: '7px',
       color: Colors.primary100,
+      w: '100%',
     },
   },
   variants: {},
