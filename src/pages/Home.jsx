@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import Profile from '../components/profile'
 import AboutMe from '../components/about-me'
 import Expertise from '../components/expertise'
+import Skills from '../components/skills'
 
 const Home = (props) => {
   const { isHome } = props
@@ -12,6 +13,7 @@ const Home = (props) => {
         <Profile />
         <AboutMe />
         <Expertise />
+        <Skills />
       </>
     )
   )

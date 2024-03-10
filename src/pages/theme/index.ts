@@ -9,6 +9,7 @@ import AppContainer from './components/app-container'
 import Profile from './components/profile'
 import AboutMe from './components/about-me'
 import Expertise from './components/expertise'
+import Skills from './components/skills'
 
 const theme = extendTheme({
   fonts,
@@ -18,6 +19,7 @@ const theme = extendTheme({
     AboutMe,
     Expertise,
     Profile,
+    Skills,
   },
 })
 
