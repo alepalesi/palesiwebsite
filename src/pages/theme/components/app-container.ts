@@ -2,8 +2,8 @@ import { Colors } from '../utils'
 
 export default {
   baseStyle: {
-    provaComponent: {
-      bg: Colors.black,
+    container: {
+      gap: '48px',
     },
   },
   variants: {},

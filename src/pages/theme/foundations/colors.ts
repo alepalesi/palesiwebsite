@@ -3,41 +3,33 @@ const colors = {
   current: 'currentColor',
 
   // primary colors
-  black: '#000000',
+  black: '#333333',
   white: '#FFFFFF',
 
   //secondary color
   neutral: '#F2EDED',
-  sustainability: '#7AA690',
-  sustainabilityText: '#487F66',
-  loyalty: '#4766FF',
-  promo: '#00AD06',
-  backgroundPromo: '#0DBA13',
-  sale: '#FD2969',
 
   //Seasonal color
-  summerYellow: '#FFCB42',
-  summerLilac: '#BC6EE1',
-  summerSky: '#8CDBDB',
-  winterPowderBlue: '#789CB9',
-  winterPrune: '#57173F',
-  winterRed: '#BF1212',
+  primary100: '#8B5FBF',
+  primary200: '#61398F',
+  primary300: '#FFFFFF',
+  accent100: '#D6C6E1',
+  accent200: '#9A73B5',
+  text100: '#4A4A4A',
+  text200: '#878787',
+  bg100: '#F5F3F7',
+  bg200: '#E9E4ED',
+  bg300: '#FFFFFF',
 
   //system color
-  background: '#F8F8F8',
+  /* background: '#F5EEE6',
+  secondary: '#FFF8E3',
+  tertiary: '#F3D7CA',
+  accent: '#E6A4B4',
   hover: '#646464',
   disabled: '#BEBEBE',
   errorRed: '#EE0000',
-  validationGreen: '#048127',
-  orange: '#FF5923',
-
-  //Notification Color
-  notification: '#F1C5C5',
-  notificationLoyalty: '#4766FF',
-
-  // Other
-  silverSand: '#F2EFED',
-  blushPink: '#D6B4B4',
+  validationGreen: '#048127', */
 }
 
 export default colors

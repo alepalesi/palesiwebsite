@@ -1,10 +1,22 @@
 import PropTypes from 'prop-types'
-import { Heading } from '@chakra-ui/react'
+import Profile from '../components/profile'
+import AboutMe from '../components/about-me'
+import Expertise from '../components/expertise'
+import Skills from '../components/skills'
 
 const Home = (props) => {
   const { isHome } = props
-  console.log('isHome', isHome)
-  return isHome && <Heading as={'h1'}>Alessia {isHome}</Heading>
+  return (
+    isHome && (
+      <>
+        {/* TODO: Add header to appear when scrolling to bottom */}
+        <Profile />
+        <AboutMe />
+        <Expertise />
+        <Skills />
+      </>
+    )
+  )
 }
 
 Home.propTypes = {
