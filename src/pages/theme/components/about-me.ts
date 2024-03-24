@@ -3,6 +3,7 @@ import { Typ, Colors } from '../utils'
 export default {
   baseStyle: {
     title: {
+      textAlign: 'center',
       ...Typ.h1_ext_reg,
     },
     description: {
@@ -10,8 +11,8 @@ export default {
     },
     stack: {
       w: '35vw',
-      maxW: '1024px',
-      gap: '16px',
+      maxW: '510px',
+      gap: '140px',
     },
   },
   variants: {},
