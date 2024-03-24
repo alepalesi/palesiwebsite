@@ -72,7 +72,7 @@ const typography = {
     fontFamily: 'Cabin',
     fontSize: { base: '18px' },
     fontWeight: 400,
-    lineHeight: { base: '22px' },
+    lineHeight: { base: '32px' },
   },
 }
 

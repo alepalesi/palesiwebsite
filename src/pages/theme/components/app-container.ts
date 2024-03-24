@@ -3,7 +3,7 @@ import { Colors } from '../utils'
 export default {
   baseStyle: {
     container: {
-      gap: '48px',
+      gap: '112px',
     },
   },
   variants: {},
